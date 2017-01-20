@@ -32,7 +32,7 @@ export function registerResource(name: string, plugin: SupRuntime.RuntimeResourc
   resourcePlugins[name] = plugin;
 }
 
-SupCore.system = new SupCore.System("", "");
+SupCore.system = new SupCore.System("", "", "");
 
 // Setup SupApp
 if ((global as any).SupApp == null) {
